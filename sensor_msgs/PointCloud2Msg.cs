@@ -1,13 +1,18 @@
-﻿using SimpleJSON;
+﻿
+
+using SimpleJSON;
 using ROSBridgeLib.std_msgs;
 using UnityEngine;
-using PointCloud;
+//Fix Pointcloud...
+//using PointCloud;
 
 /**
  * Define a PointCloud2 message.
  *  
  * @author Miquel Massot Campos
  */
+
+    /*
 
 namespace ROSBridgeLib {
 	namespace sensor_msgs {
@@ -121,3 +126,5 @@ namespace ROSBridgeLib {
 		}
 	}
 }
+
+    */

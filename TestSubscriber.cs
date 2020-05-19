@@ -7,11 +7,11 @@ public class TestSubscriber : ROSBridgeLib.ROSBridgeSubscriber {
   }
 
   public new static string GetMessageType() {
-    return "std_msgs/PoseMsg";
+    return "geometry_msgs/TransformStamped";
   }
 
   public new static ROSBridgeMsg ParseMessage(JSONNode msg) {
-    return new ROSBridgeLib.geometry_msgs.PoseMsg (msg);
+    return new ROSBridgeLib.geometry_msgs.TransformStampedMsg(msg);
   }
 
   // This function should fire on each received ros message
